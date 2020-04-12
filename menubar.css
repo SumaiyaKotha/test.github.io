@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: tomato;
+}
+nav>ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+nav>ul>li{
+	flex-basis: 20%;
+	list-style-type: none;
+	background-color: tomato;
+	height: 40px;
+	line-height: 40px;
+}
+nav ul li{
+	list-style-type: none;
+}
+nav ul li ul li{
+	display: none;
+	background-color: #178
+}
+nav ul li:hover ul li{
+	display: block;
+}
+nav ul li:hover{
+	background: #178;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+}
